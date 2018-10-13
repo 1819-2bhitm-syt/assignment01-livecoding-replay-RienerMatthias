@@ -1,1 +1,0 @@
-console.log("ich bin die unterordner app.js");
