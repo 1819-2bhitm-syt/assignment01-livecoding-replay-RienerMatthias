@@ -34,15 +34,14 @@ circle.draw();
 
 // Constructor Function
 
-function Circle3(radius){
-    console.log(`this` , this )
-    this.radius = radius;
-    this.draw = function(){
-        console.log(`draw`);
-    };
-}
+//function Circle3(radius){
+   // this.radius = radius;
+   // this.draw = function(){
+    //    console.log(`draw`);
+   // };
+}//
 
-const another = new Cirlce3(1);
+//const another = new Cirlce3(1);
 
 //Object
 
@@ -84,3 +83,14 @@ console.log('ok = ',ok,ok.constructor);
 
 let total = 100;
 console.log('total = ',total,total.constructor);
+
+
+//Primitive Datentypen
+
+let hallo = function(str){
+    str = "Hallo "  + str;
+};
+
+let welt = "Welt;"
+    hallo(welt);
+console.log(welt);
